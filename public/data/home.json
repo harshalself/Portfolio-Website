@@ -1,0 +1,33 @@
+
+{
+  "name": "Harshal Patil",
+  "sop": "A quick learner with strong ideation, adaptable in teams, good communicator, skilled in web development, AI agents, data analytics and Git/GitHub.",
+  "contact": {
+    "city": "Nashik, Maharashtra",
+    "email": "harshalpatilself@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/harshal-patil-534502259/",
+    "instagram": "https://instagram.com/harshal_patil.knowme?igshid=ZDdkNTZiNTM=",
+    "github": "https://github.com/harshalself"
+  },
+  "education": {
+    "degree": "B.Tech Artificial Intelligence and Data Science",
+    "branch": "Artificial Intelligence and Data Science",
+    "college": "K.K.W.I.E.E.R",
+    "location": "Nashik",
+    "year": "2026",
+    "cgpa": "8.44"
+  },
+  "stats": {
+    "projectsCompleted": 7,
+    "technologiesLearned": 15,
+    "toolsUsed": 7,
+    "hackathonsParticipated": 6
+  },
+  "softSkills": [
+    "Project Management",
+    "Decision Making", 
+    "Team Collaboration",
+    "Public Speaking",
+    "Content Creation & Video Editing"
+  ]
+}

@@ -1,0 +1,176 @@
+
+{
+  "activities": [
+    {
+      "id": 5,
+      "title": "Smart India Hackathon 2024 – Winner",
+      "type": "Hackathon",
+      "description": "Participated under the team name \"Sahvrindam.\" Won through a wildcard entry at IIT Tirupati.",
+      "date": "December 2024",
+      "achievement": "Winner",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_iittirupati-smartindiahackathon2024-teamwork-activity-7274455308993789952-11oy?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 17,
+      "title": "Smart India Hackathon 2023 – Winner",
+      "type": "Hackathon",
+      "description": "Won for Problem Statement 1473: Boosting Tourism using VR, sensors, Arduino, and UI design. Overcame technical challenges like a last-minute laptop crash.",
+      "date": "December 2023",
+      "achievement": "1st Prize Winner, Government of India-recognized SIH 2023",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_sih2023-sih-innovation-activity-7144403412783185920-_pVZ"
+    },
+    {
+      "id": 2,
+      "title": "Mindspark Mini Hackathon – Winner",
+      "type": "Hackathon",
+      "description": "Participated in Mindspark Mini Hackathon at MVPS's KBT College of Engineering, Nashik. Developed a solution for EV charging station power management under time constraints with presentation and prototype.",
+      "date": "March 2025",
+      "achievement": "1st Place",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_victory-hackathonwinner-techfest2025-activity-7319970977293959169-70kT?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 3,
+      "title": "KKWIEER Fest – 2x Wins",
+      "type": "Competition",
+      "description": "Participated in business plan, imposter escape, and reel-making competitions during college fest.",
+      "date": "February 2025",
+      "achievement": "Winner in two events, with certificates and cash prize",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_kkwieerfest-teamwork-winningmoments-activity-7306916184589832192-AP_d?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 18,
+      "title": "Secured 3rd Rank – First Semester",
+      "type": "Academic Achievement",
+      "description": "Recognized for strong academic performance in the 1st semester.",
+      "date": "July 2023",
+      "achievement": "3rd rank in class; received book reward",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_achievement-grateful-motivated-activity-7080066903800451072-lJNj"
+    },
+    {
+      "id": 6,
+      "title": "NASA Space Apps Challenge 2024 – Global Nominee",
+      "type": "Hackathon",
+      "description": "Represented Nashik region at global level with team \"Musical Aliens.\"",
+      "date": "November 2024",
+      "achievement": "Global Nominee",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_spaceapps2024-nasa-globalnominees-activity-7270704779503284224-_yJf?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 4,
+      "title": "EY Techathon 5.0",
+      "type": "Hackathon",
+      "description": "Advanced to Round 2 of EY Techathon 5.0 with a remote team. Worked under pressure with limited time and slides.",
+      "date": "January 2025",
+      "achievement": "Reached Round 2",
+      "link": "https://www.linkedin.com/posts/snehalsanap_eytechathon-hackathon-mibcsclub-ugcPost-7302684348837773312-MCTX?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 7,
+      "title": "Bit N Build Hackathon – Top 30",
+      "type": "Hackathon",
+      "description": "Developed a Smart Inventory & Waste Reduction System using MERN stack at 24-hour web dev hackathon by GDSC-CRCE.",
+      "date": "October 2024",
+      "achievement": "Shortlisted in Top 30",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_hackathon-webdevelopment-mernstack-activity-7269966988364443648-ZA5K?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 11,
+      "title": "Webathon at M.H. Saboo Siddik College Of Engineering",
+      "type": "Hackathon",
+      "description": "Advanced through Round 1 with an innovative idea and successfully implemented and presented it in Round 2. Engaged with industry experts, explored Mumbai, and gained valuable experience.",
+      "date": "May 2024",
+      "achievement": "Qualified till final round, presentation well-received by panel",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_webathon-teamwork-innovation-activity-7227694481473445888-Taal"
+    },
+    {
+      "id": 15,
+      "title": "Finalist in Tech-Trek by GDSC KKWIEER",
+      "type": "Competition",
+      "description": "Participated in a tech-based challenge organized by GDSC and reached the final round.",
+      "date": "January 2024",
+      "achievement": "Finalist, received participation certificate",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_gdsc-kkwagh-activity-7165250627290161154-1RyN"
+    },
+    {
+      "id": 1,
+      "title": "Google Cloud Arcade Advanced Milestone",
+      "type": "Certification",
+      "description": "Completed the Google Cloud Arcade journey and unlocked the Advanced Milestone, receiving rewards including hoodie, backpack, mug, pen, etc.",
+      "date": "May 2024",
+      "achievement": "Achieved Advanced Milestone",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_googlecloud-cloudskillsboost-qwiklabs-activity-7336030167502368770-VCCy?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 16,
+      "title": "Google Cloud Study Jams – Goodies Received",
+      "type": "Certification",
+      "description": "Completed Google Cloud Skills Boost Study Jams organized by GDSC.",
+      "date": "January 2024",
+      "achievement": "Received exclusive goodies from Google Cloud",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_gdsc-kkwieer-activity-7164332360040222720-pU0C"
+    },
+    {
+      "id": 19,
+      "title": "First Open Source Contribution – MindsDB Swag",
+      "type": "Open Source",
+      "description": "Contributed to the MindsDB project and was recognized for the effort.",
+      "date": "June 2023",
+      "achievement": "Received official MindsDB swag and community recognition",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_mindsdb-opensource-gratitude-activity-7065201850223931392-eEFr"
+    },
+    {
+      "id": 13,
+      "title": "Innovation Design Entrepreneurship Bootcamp (IDE Bootcamp Phase 3)",
+      "type": "Bootcamp",
+      "description": "Represented Team AGRATAS at a 5-day innovation bootcamp organized by MIC, AICTE, and Wadhwani Foundation at NIT Goa. Learned from industry leaders and visited FiRE incubation center.",
+      "date": "March 2024",
+      "achievement": "National representation, networked with top mentors and innovators",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_innovation-design-entrepreneurship-activity-7194961503148556289-8ocS"
+    },
+    {
+      "id": 12,
+      "title": "LinkedIn Profile Setup Session for Juniors",
+      "type": "Workshop",
+      "description": "Organized a hands-on session to guide juniors on creating professional LinkedIn profiles and understanding the importance of networking.",
+      "date": "May 2024",
+      "achievement": "Mentored peers and helped shape their professional journeys",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_linkedin-networking-career-activity-7226588496201711617-W2xh"
+    },
+    {
+      "id": 8,
+      "title": "Git & GitHub Hands-on Session – MIBCS Hacktoberfest",
+      "type": "Workshop",
+      "description": "Conducted an open-source session covering Git basics, GitHub workflow, and collaborative development.",
+      "date": "October 2023",
+      "achievement": "Workshop Conductor",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_opensource-hacktoberfest-git-activity-7250044930310496256-usaI?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 9,
+      "title": "Idealab Design Thinking Workshop – Volunteer",
+      "type": "Volunteering",
+      "description": "Volunteered at a design thinking session focused on creative problem-solving.",
+      "date": "September 2023",
+      "achievement": "Volunteer",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_designthinking-innovation-volunteering-activity-7250807441074900992-z8ks?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 10,
+      "title": "AI Unplugged Event – Volunteer",
+      "type": "Volunteering",
+      "description": "Volunteered at an AI and ML event hosted by ML Nashik. Co-anchored, managed the event, created content, and mentored students on SIH.",
+      "date": "September 2023",
+      "achievement": "Volunteer, Co-Anchor, Mentor",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_ainashik-mlnashik-ai-activity-7244020106958098432-JYq-?utm_source=share&utm_medium=member_ios&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    },
+    {
+      "id": 14,
+      "title": "Consolation Prize at Sunhacks 2k24 – Skill Swift",
+      "type": "Hackathon",
+      "description": "Built an AI-ML powered resume filtering website named \"Skill Swift\" with team Pyyoneers.",
+      "date": "February 2024",
+      "achievement": "Consolation Prize, Top 3 in Web Dev Domain",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_dear-connections-we-are-very-excited-to-activity-7194699324918816768-x-eb"
+    }
+  ]
+}

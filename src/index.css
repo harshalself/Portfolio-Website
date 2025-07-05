@@ -1,0 +1,347 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 0 0% 3%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 8%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 75%;
+
+    --accent: 0 0% 8%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 180 100% 40%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 180 100% 35%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 0 0% 7%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 10%;
+    --sidebar-ring: 180 100% 40%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-source;
+    background: #000000;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+  }
+
+  /* Mobile-first responsive background */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background: 
+      radial-gradient(ellipse at center, rgba(147, 51, 234, 0.3) 0%, transparent 70%),
+      radial-gradient(ellipse at center, rgba(79, 70, 229, 0.18) 20%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+    border-radius: 50%;
+  }
+
+  @media (min-width: 640px) {
+    body::before {
+      width: 70%;
+      height: 70%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    body::before {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  /* Typography hierarchy with premium fonts */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+    color: white !important;
+    font-weight: 400; /* Changed to normal weight */
+    letter-spacing: 0.025em; /* Improved letter spacing */
+  }
+
+  h1 {
+    font-weight: 400; /* Changed to normal weight */
+    letter-spacing: 0.05em; /* Better letter spacing for main titles */
+  }
+
+  p, span, div, label, button, a {
+    @apply font-source text-base; /* Increased from default to text-base */
+    color: white !important;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    @apply font-inter;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  /* Force white text on specific elements */
+  .text-white {
+    color: white !important;
+  }
+
+  /* Override any colored text to white */
+  .text-yellow-400,
+  .text-cyan-400,
+  .text-blue-400,
+  .text-teal-400,
+  .text-green-400 {
+    color: white !important;
+  }
+
+  /* Company names and special highlights can use gradient */
+  .company-name,
+  .achievement-text {
+    @apply font-inter;
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.9), rgba(79, 70, 229, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-black/95 backdrop-blur-xl border border-gray-700/50 shadow-2xl;
+    background: rgba(0, 0, 0, 0.95);
+    box-shadow: 
+      0 20px 40px -12px rgba(0, 0, 0, 0.9),
+      0 0 0 1px rgba(255, 255, 255, 0.1),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .glass-card {
+    @apply backdrop-blur-md border border-gray-700/40 shadow-xl rounded-xl;
+    background: rgba(0, 0, 0, 0.95);
+    box-shadow: 
+      0 25px 50px -12px rgba(0, 0, 0, 0.9),
+      0 0 0 1px rgba(255, 255, 255, 0.1),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glass-card:hover {
+    background: rgba(0, 0, 0, 0.98);
+    border-color: rgba(147, 51, 234, 0.4);
+    box-shadow: 
+      0 40px 80px -12px rgba(0, 0, 0, 0.95),
+      0 0 0 1px rgba(147, 51, 234, 0.3),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+      0 0 40px rgba(147, 51, 234, 0.2),
+      0 0 80px rgba(79, 70, 229, 0.1);
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    .glass-card:hover {
+      box-shadow: 
+        0 20px 40px -12px rgba(0, 0, 0, 0.95),
+        0 0 0 1px rgba(147, 51, 234, 0.2),
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+        0 0 20px rgba(147, 51, 234, 0.15);
+    }
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent font-poppins;
+    font-weight: 700;
+    letter-spacing: 0.025em; /* Improved letter spacing for gradient text */
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    @apply shadow-2xl;
+    box-shadow: 
+      0 35px 70px -12px rgba(0, 0, 0, 0.95),
+      0 0 25px rgba(147, 51, 234, 0.2),
+      0 0 50px rgba(79, 70, 229, 0.1);
+  }
+
+  /* Consistent button styling */
+  .btn-primary {
+    @apply font-inter;
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(79, 70, 229, 0.8));
+    color: white;
+    border: 1px solid rgba(147, 51, 234, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(135deg, rgba(147, 51, 234, 1), rgba(79, 70, 229, 1));
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(147, 51, 234, 0.3);
+  }
+
+  /* Consistent icon styling */
+  .icon-gradient {
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.9), rgba(79, 70, 229, 0.9));
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.3s ease;
+  }
+
+  .icon-gradient:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, rgba(147, 51, 234, 1), rgba(79, 70, 229, 1));
+  }
+
+  /* Profile icon styling */
+  .profile-icon {
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.9), rgba(79, 70, 229, 0.9));
+    color: white;
+  }
+
+  /* Skill slider styling */
+  .skill-slider {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .skill-slider-fill {
+    background: linear-gradient(90deg, rgba(147, 51, 234, 0.9), rgba(79, 70, 229, 0.9));
+    height: 100%;
+    border-radius: 999px;
+  }
+
+  /* Badge styling */
+  .badge-consistent {
+    @apply font-inter;
+    background: rgba(147, 51, 234, 0.2);
+    color: white;
+    border: 1px solid rgba(147, 51, 234, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .badge-consistent:hover {
+    background: rgba(147, 51, 234, 0.3);
+    border-color: rgba(147, 51, 234, 0.5);
+    transform: translateY(-1px);
+  }
+
+  /* Category icon backgrounds */
+  .category-icon {
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(79, 70, 229, 0.8));
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .category-icon:hover {
+    background: linear-gradient(135deg, rgba(147, 51, 234, 1), rgba(79, 70, 229, 1));
+    transform: rotate(5deg);
+  }
+
+  /* Mobile responsive category icons */
+  @media (max-width: 640px) {
+    .category-icon {
+      padding: 8px;
+    }
+  }
+
+  /* Enhanced animations for images */
+  .glass-card img {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glass-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.1) contrast(1.05);
+  }
+
+  /* Mobile touch optimizations */
+  @media (max-width: 768px) {
+    .glass-card:active {
+      transform: translateY(-2px) scale(0.98);
+    }
+    
+    /* Ensure touch targets are large enough */
+    button, a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+}
+
+/* Responsive Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+@media (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 51, 234, 0.4);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(147, 51, 234, 0.6);
+}
+
+/* Mobile-specific utilities */
+@media (max-width: 768px) {
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+}
