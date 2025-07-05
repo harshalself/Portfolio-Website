@@ -1,10 +1,9 @@
-
-import { useState, useEffect } from 'react';
-import SectionHeader from './SectionHeader';
-import ItemCard from './ItemCard';
-import LoadingSpinner from './LoadingSpinner';
-import ErrorMessage from './ErrorMessage';
-import GridContainer from './GridContainer';
+import { useState, useEffect } from "react";
+import SectionHeader from "./SectionHeader";
+import ItemCard from "./ItemCard";
+import LoadingSpinner from "./LoadingSpinner";
+import ErrorMessage from "./ErrorMessage";
+import GridContainer from "./GridContainer";
 
 interface CoCurricularActivity {
   id: number;
@@ -26,14 +25,16 @@ const CoCurricular = () => {
   useEffect(() => {
     const fetchActivities = async () => {
       try {
-        const response = await fetch('/data/co_curricular.json');
+        const response = await fetch(
+          `${import.meta.env.BASE_URL}data/co_curricular.json`
+        );
         if (!response.ok) {
-          throw new Error('Failed to fetch co-curricular activities');
+          throw new Error("Failed to fetch co-curricular activities");
         }
         const data = await response.json();
         setActivities(data.activities);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        setError(err instanceof Error ? err.message : "Unknown error occurred");
       } finally {
         setLoading(false);
       }
@@ -47,17 +48,17 @@ const CoCurricular = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <SectionHeader 
-        title="Co-Curricular Activities" 
+      <SectionHeader
+        title="Co-Curricular Activities"
         subtitle="Competitions, achievements and academic excellence"
       />
-      
+
       <GridContainer>
         {activities.map((activity, index) => (
-          <ItemCard 
-            key={activity.id} 
-            item={activity} 
-            index={index} 
+          <ItemCard
+            key={activity.id}
+            item={activity}
+            index={index}
             type="co-curricular"
           />
         ))}

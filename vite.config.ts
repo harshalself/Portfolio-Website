@@ -7,9 +7,9 @@ import path, { dirname } from "path";
 // https://vitejs.dev/config/
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-export default defineConfig(({ mode }: { mode: string }) => ({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: "/Portfolio-Website",
+  base: mode === "development" ? "/" : "/Portfolio-Website/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),

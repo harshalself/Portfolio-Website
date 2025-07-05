@@ -1,10 +1,9 @@
-
-import { useState, useEffect } from 'react';
-import SectionHeader from './SectionHeader';
-import ProjectCard from './ProjectCard';
-import LoadingSpinner from './LoadingSpinner';
-import ErrorMessage from './ErrorMessage';
-import GridContainer from './GridContainer';
+import { useState, useEffect } from "react";
+import SectionHeader from "./SectionHeader";
+import ProjectCard from "./ProjectCard";
+import LoadingSpinner from "./LoadingSpinner";
+import ErrorMessage from "./ErrorMessage";
+import GridContainer from "./GridContainer";
 
 interface Project {
   id: number;
@@ -24,14 +23,16 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('/data/projects.json');
+        const response = await fetch(
+          `${import.meta.env.BASE_URL}data/projects.json`
+        );
         if (!response.ok) {
-          throw new Error('Failed to fetch projects');
+          throw new Error("Failed to fetch projects");
         }
         const data = await response.json();
         setProjects(data.projects);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        setError(err instanceof Error ? err.message : "Unknown error occurred");
       } finally {
         setLoading(false);
       }
@@ -45,11 +46,11 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <SectionHeader 
-        title="My Projects" 
+      <SectionHeader
+        title="My Projects"
         subtitle="A collection of my work and personal projects"
       />
-      
+
       <GridContainer>
         {projects.map((project, index) => (
           <ProjectCard key={project.id} project={project} index={index} />
