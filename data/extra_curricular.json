@@ -1,0 +1,125 @@
+
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "Social Media and Digital Content Co-Head – TEDxKKWIEER",
+      "category": "Leadership",
+      "description": "Leading digital content strategy and social media campaigns to promote TEDx events and increase engagement across platforms.",
+      "duration": "Dec 2024 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 3,
+      "title": "Social Media Head – Computer Society of India, KKWIEER Chapter",
+      "category": "Leadership",
+      "description": "Managing the social media handles, planning and executing content strategies for technical events and workshops.",
+      "duration": "Oct 2024 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 4,
+      "title": "Committee Member – ML Nashik",
+      "category": "Leadership",
+      "description": "Contributing to planning and organizing machine learning events, workshops, and community initiatives.",
+      "duration": "Aug 2024 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 5,
+      "title": "Social Media Head – MIBCS KKWIEER",
+      "category": "Leadership",
+      "description": "Overseeing online presence, promotional campaigns, and branding for the science and technology club.",
+      "duration": "Oct 2024 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 6,
+      "title": "Member – Elite Club of Nashik",
+      "category": "Leadership",
+      "description": "Active participant in cultural and leadership activities organized by the Elite Club.",
+      "duration": "Ongoing",
+      "achievement": ""
+    },
+    {
+      "id": 7,
+      "title": "Member Board of Directors – ELITE CLUB",
+      "category": "Leadership",
+      "description": "Directed content and social media strategies, and contributed to core decision-making processes.",
+      "duration": "Jun 2024 – Aug 2024",
+      "achievement": ""
+    },
+    {
+      "id": 8,
+      "title": "Joint Secretary – ELITE CLUB",
+      "category": "Leadership",
+      "description": "Managed teams, tasks, and club activities while playing a key leadership role in organizing events.",
+      "duration": "Jan 2024 – May 2024",
+      "achievement": ""
+    },
+    {
+      "id": 15,
+      "title": "Member – ISTE KKWIEER",
+      "category": "Leadership",
+      "description": "Actively involved in ISTE student chapter activities including seminars and workshops.",
+      "duration": "Nov 2022 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 2,
+      "title": "Volunteer – National Service Scheme (NSS)",
+      "category": "Volunteering",
+      "description": "Participating in various social outreach activities, awareness drives, and community development programs under NSS.",
+      "duration": "Sep 2024 – Present",
+      "achievement": ""
+    },
+    {
+      "id": 11,
+      "title": "Hostel Boys Dance – Maffick 2025",
+      "category": "Cultural",
+      "description": "Performed and won the cultural dance competition at Maffick 2025.",
+      "duration": "Jan 2025",
+      "achievement": ""
+    },
+    {
+      "id": 12,
+      "title": "Mahabharat – Musical Drama (Maffick 2025)",
+      "category": "Cultural",
+      "description": "Acted in and contributed to the winning musical drama production at the annual fest.",
+      "duration": "Jan 2025",
+      "achievement": ""
+    },
+    {
+      "id": 13,
+      "title": "Ramayana – Musical Drama (Maffick 2024)",
+      "category": "Cultural",
+      "description": "Participated in a theatrical production that was recognized in the Maffick fest.",
+      "duration": "Feb 2024",
+      "achievement": ""
+    },
+    {
+      "id": 14,
+      "title": "Shivrajyabhishek – Musical Drama (Maffick 2023)",
+      "category": "Cultural",
+      "description": "Acted in a cultural drama that highlighted Maratha heritage during Maffick 2023.",
+      "duration": "Feb 2023",
+      "achievement": ""
+    },
+    {
+      "id": 9,
+      "title": "BOD of Photography and Multimedia – ELITE CLUB",
+      "category": "Cultural",
+      "description": "Led photography and videography initiatives for club events and social media content creation.",
+      "duration": "Jun 2023 – Dec 2023",
+      "achievement": ""
+    },
+    {
+      "id": 10,
+      "title": "Assistant BOD of Photography – ELITE CLUB",
+      "category": "Cultural",
+      "description": "Assisted in covering and editing event visuals, and supported the photography/media team.",
+      "duration": "Jan 2023 – Jun 2023",
+      "achievement": ""
+    }
+  ]
+}

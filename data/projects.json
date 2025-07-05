@@ -1,0 +1,123 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Resume Matcher Project",
+      "description": "A resume matching system that uses AI to match candidate resumes with job descriptions and calculate match percentages. Features include resume parsing and analysis, job description matching, real-time updates, user authentication, and job application tracking.",
+      "image": "https://raw.githubusercontent.com/harshalself/Resume_Matcher/main/Screenshot.png",
+      "technologies": [
+        "Python",
+        "Flask",
+        "React",
+        "Node.js",
+        "Google Gemini AI",
+        "Supabase"
+      ],
+      "link": "https://github.com/harshalself/Resume_Matcher",
+      "liveLink": ""
+    },
+    {
+      "id": 2,
+      "title": "Hospital Management System",
+      "description": "A comprehensive Hospital Management System built to learn databases and CRUD operations using MongoDB, Node.js, Express, and frontend technologies. Features patient registration, search functionality, dashboard analytics with statistical visualizations, and responsive design for optimal user experience.",
+      "image": "https://raw.githubusercontent.com/harshalself/Hospital-Management-System/refs/heads/main/Screenshot%201.png",
+      "technologies": [
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Chart.js"
+      ],
+      "link": "https://github.com/harshalself/Hospital-Management-System",
+      "liveLink": ""
+    },
+    {
+      "id": 3,
+      "title": "AlgoVerse",
+      "description": "AlgoVerse is a web-based platform designed to help users visualize and solve pathfinding problems using Dijkstra's algorithm. The project features an interactive interface for creating graphs and running the Dijkstra solver, making it ideal for students, educators, and anyone interested in learning about graph algorithms.",
+      "image": "https://raw.githubusercontent.com/harshalself/AlgoVerze/main/Screenshot%202.png",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Graph Algorithms",
+        "Dijkstra's Algorithm"
+      ],
+      "link": "https://github.com/harshalself/AlgoVerze",
+      "liveLink": ""
+    },
+    {
+      "id": 4,
+      "title": "AI Waste Detection System",
+      "description": "An online machine learning-based platform which accepts values of sensors and then predicts the waste type as dry, wet, or plastic. Features sensor input validation, prediction confidence display, and user-friendly web interface for waste classification.",
+      "image": "https://raw.githubusercontent.com/harshalself/AI-Waste-Detection-System/refs/heads/main/Screenshot%201.png",
+      "technologies": [
+        "Machine Learning",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Sensor Integration"
+      ],
+      "link": "https://github.com/harshalself/AI-Waste-Detection-System",
+      "liveLink": ""
+    },
+    {
+      "id": 5,
+      "title": "Jungle",
+      "description": "A simple 3D jungle environment project created in first year using Unity. Features trees, grass, paths, animals, a lake, mountains, and beautiful terrain. Developed as part of Idealab project to explore Unity's environment and asset systems.",
+      "image": "https://raw.githubusercontent.com/harshalself/Jungle-Unity/refs/heads/main/Captures/13.png",
+      "technologies": [
+        "Unity Engine",
+        "C#",
+        ".NET Standard",
+        "Unity Input System",
+        "Unity TextMeshPro",
+        "Unity Timeline",
+        "Unity Visual Scripting",
+        "Universal RP"
+      ],
+      "link": "https://github.com/harshalself/Jungle-Unity",
+      "liveLink": ""
+    },
+    {
+      "id": 6,
+      "title": "Realtime Chat App",
+      "description": "A modern real-time chat application built with React and Firebase. Features instant messaging, user authentication, protected routes, responsive UI, and seamless real-time communication between users using Firebase Realtime Database.",
+      "image": "https://raw.githubusercontent.com/harshalself/Realtime-Chat-App-Firebase/refs/heads/main/Screenshot-1.png",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Firebase",
+        "Firebase Authentication",
+        "Firebase Realtime Database",
+        "CSS Modules"
+      ],
+      "link": "https://github.com/harshalself/Realtime-Chat-App-Firebase",
+      "liveLink": ""
+    },
+    {
+      "id": 7,
+      "title": "Flashify",
+      "description": "AI-powered app that generates flashcards and quizzes from uploaded study materials, tracks learning progress, and works seamlessly across platforms.",
+      "image": "https://raw.githubusercontent.com/harshalself/Flashify/refs/heads/main/SS-1.jpg",
+      "technologies": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Tailwind CSS",
+        "React Navigation",
+        "Supabase",
+        "FastAPI",
+        "Python",
+        "LangChain",
+        "Google Gemini API",
+        "Uvicorn"
+      ],
+      "link": "https://github.com/harshalself/Flashify",
+      "liveLink": ""
+    }
+  ]
+}

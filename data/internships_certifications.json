@@ -1,0 +1,26 @@
+
+{
+  "internships": [
+    {
+      "id": 1,
+      "title": "Software Developer Intern",
+      "company": "Avhad Enterprises",
+      "role": "Backend Developer",
+      "description": "Had hands-on experience with React.js, Node.js, Express.js, Git and PostgreSQL for building full-stack web applications.",
+      "duration": "16th June 2025 - Present",
+      "type": "internship",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_from-learning-to-doing-kicking-off-my-internship-activity-7346009727169900544-1NNm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Node.js Certification Course - Master the Fundamentals",
+      "organization": "Scaler Topics",
+      "description": "Completed 58 video tutorials across 10 modules, gaining a solid foundation in backend development with Node.js.",
+      "date": "December 2024",
+      "type": "certification",
+      "link": "https://www.linkedin.com/posts/harshal-patil-534502259_excited-to-share-that-ive-completed-the-activity-7343127277301370880-tzfC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-c3HgBMcqgqKCj4fsxEVoI10lDuSlsgGk"
+    }
+  ]
+}
