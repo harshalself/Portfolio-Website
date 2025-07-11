@@ -278,7 +278,7 @@ const Home = () => {
         <div className="flex-1 min-h-0 mt-4">
           <div className="h-full grid grid-cols-1 lg:grid-cols-3 gap-4">
             {/* Stats - Column 1 */}
-            <div className="grid grid-cols-2 gap-3 h-fit lg:h-full">
+            <div className="grid grid-cols-2 gap-3 h-fit lg:h-full mb-4 lg:mb-0">
               {statsData.map((stat, index) => (
                 <div key={stat.label} className="h-full">
                   {stat.showTooltip ? (
@@ -361,9 +361,11 @@ const Home = () => {
               ))}
             </div>
 
-            {/* 3D Spline Model - Column 2 - Constrained height */}
-            <div className="h-full max-h-[50vh] lg:max-h-full relative overflow-hidden rounded-lg">
-              <Spline scene="https://prod.spline.design/uuHpudnGcAe4fZee/scene.splinecode" />
+            {/* 3D Spline Model - Column 2 - Responsive aspect ratio on mobile */}
+            <div className="w-full mb-4 lg:mb-0 flex items-center justify-center">
+              <div className="w-full aspect-[4/3] sm:aspect-[16/9] lg:h-full relative overflow-hidden rounded-lg">
+                <Spline scene="https://prod.spline.design/uuHpudnGcAe4fZee/scene.splinecode" />
+              </div>
             </div>
 
             {/* Education - Column 3 */}
